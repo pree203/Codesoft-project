@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Landing Page Project</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Landing Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <h2>Your Awesome Heading Here</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#" class="cta-button">Learn More</a>
+    </div>
+    <div class="hero-image">
+      <img src="image.jpg" alt="Hero Image">
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="feature">
+      <h3>Feature 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <h3>Feature 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <h3>Feature 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+//css file for task1
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.feature {
+  flex: 1;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+//Task2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Name - Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer</p>
+  </header>
+  
+  <section id="about">
+    <img src="profile.jpg" alt="Your Name">
+    <p>
+      Hi there! I'm a passionate web developer with a love for creating elegant and functional websites.
+      With a background in HTML, CSS, and JavaScript, I'm dedicated to turning your web design dreams into reality.
+    </p>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Web Accessibility</li>
+    </ul>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project 1 Title</h3>
+      <p>This is a description of project 1. Lorem ipsum dolor sit amet...</p>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project 2 Title</h3>
+      <p>This is a description of project 2. Lorem ipsum dolor sit amet...</p>
+    </div>
+    <!-- Add more project divs as needed -->
+  </section>
+  
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</a></p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+//Task2 cssfile
+  /* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+#about {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#about img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+#skills {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#projects {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+#resume, #contact {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+#resume a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  
+  #about, #skills, #projects, #resume, #contact {
+    padding: 20px 0;
+  }
+}
+//Task3 html file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button onclick="appendOperator('+')">+</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendOperator('*')">*</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendOperator('/')">/</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+//Task3 css file
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+#display {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+//Task3 javascript file
+  let display = document.getElementById("display");
+let expression = "";
+
+function appendNumber(num) {
+  expression += num;
+  display.value = expression;
+}
+
+function appendOperator(op) {
+  expression += op;
+  display.value = expression;
+}
+
+function clearDisplay() {
+  expression = "";
+  display.value = "";
+}
+
+function calculate() {
+  try {
+    let result = eval(expression);
+    display.value = result;
+    expression = "";
+  } catch (error) {
+    display.value = "Error";
+    expression = "";
+  }
+}
+
+
+  
+
+
